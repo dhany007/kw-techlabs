@@ -1,0 +1,31 @@
+// USERS
+// get users
+GET http://localhost:3000/users
+
+###
+
+// create user
+POST http://localhost:3000/users/register
+Content-Type: "application/json"
+
+{
+  "username": "andi",
+  "password": "andi"
+}
+
+###
+
+// CARS
+// get cars
+GET http://localhost:3000/cars
+
+###
+
+// create user
+POST http://localhost:3000/cars/create
+Content-Type: "application/json"
+
+{
+  "username": "andi",
+  "password": "andi"
+}

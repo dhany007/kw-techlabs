@@ -1,0 +1,1 @@
+omitempty => json field ada data atau enggak, jadi kalau kosong, dia bakalan hilangin fieldnya, bukan string kosong

@@ -1,0 +1,38 @@
+// create car
+POST http://localhost:3001/cars
+Content-Type: : application/json
+
+{
+  "brand": "toyota",
+  "model": "xpander",
+  "price": 1000
+}
+
+###
+
+// get all cars
+GET http://localhost:3001/cars
+
+###
+
+// get car by id
+GET http://localhost:3001/cars/car-1
+
+###
+
+// delete car by id
+DELETE  http://localhost:3001/cars/car-1
+
+###
+
+// update car
+PUT http://localhost:3001/cars/car-1
+Content-Type: : application/json
+
+{
+  "brand": "toyota update",
+  "model": "kijang update",
+  "price": 1000
+}
+
+###

@@ -1,0 +1,40 @@
+
+// get all data employees
+GET http://localhost:8080/employees
+###
+
+// get data employe with query name
+GET http://localhost:8080/employees?name=dhany
+
+###
+
+// create data employee
+POST http://localhost:8080/employee/create
+Content-Type: "application/json"
+
+{
+  "name": "arif",
+  "age": 20,
+  "departement": "marketing"
+}
+
+###
+
+// update data employee
+PUT http://localhost:8080/employee/update?name=andis
+Content-Type: "application/json"
+
+{
+  "name": "andi update",
+  "age": 21,
+  "departement": "marketing update"
+}
+
+###
+
+// delete data employe with query name
+DELETE http://localhost:8080/employee/delete?name=dhanys
+
+###
+
+
